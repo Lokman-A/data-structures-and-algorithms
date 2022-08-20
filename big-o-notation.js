@@ -1,0 +1,1 @@
+// Big O Notation is a way to measure an algorithm's efficiency. It measures the time it takes to run your function as the input grows. Or in other words, how well does the function scale. There are two parts to measuring efficiency — time complexity and space complexity.
