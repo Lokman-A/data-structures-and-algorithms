@@ -14,4 +14,20 @@ function isPrime(n) {
   return true;
 }
 
-console.log(isPrime(45)); // O(n)
+console.log(isPrime(17)); // O(n)
+
+// optimized version
+function isPrimeBest(n) {
+  console.log(Math.sqrt(n));
+  if (n < 2) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(n); i++) {
+    if (n % i === 0) {
+      return false;
+    }
+  }
+  return true;
+}
+
+console.log(isPrimeBest(17)); // O(sqrt(n))
