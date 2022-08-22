@@ -42,8 +42,8 @@ for (let i = 1; i <= n; i++) {
 
 // big o trend (best to worst)
 /*
-O(log n)
 O(1)
+O(log n)
 O(n)
 O(n log n)
 O(n^2)
