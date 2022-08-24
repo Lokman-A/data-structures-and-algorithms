@@ -14,7 +14,7 @@ function isPrime(n) {
   return true;
 }
 
-console.log(isPrime(17)); // O(n)
+console.log(isPrime(125)); // O(n)
 
 // optimized version
 function isPrimeBest(n) {
@@ -30,4 +30,4 @@ function isPrimeBest(n) {
   return true;
 }
 
-console.log(isPrimeBest(17)); // O(sqrt(n))
+console.log(isPrimeBest(125)); // O(sqrt(n))
